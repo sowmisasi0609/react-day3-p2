@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+.app-container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select,
+button {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input.error,
+select.error {
+    border-color: red;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.85rem;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.course-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.course-row input,
+.course-row select {
+    flex: 1;
+}
+
+button {
+    padding: 8px 12px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.success-msg {
+    color: #2ecc71;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.navigation-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.loading {
+    font-size: 0.9rem;
+    color: #f39c12;
+}
