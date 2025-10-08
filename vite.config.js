@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:'/rteact-day3-p2/'
+  base:'/react-day3-p2/'
 })
